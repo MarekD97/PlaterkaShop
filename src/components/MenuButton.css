@@ -1,0 +1,62 @@
+.menu-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    border: 0;
+    height: 40px;
+    margin: 12px;
+    padding: 0 8px;
+    width: 40px;
+    cursor: pointer;
+    z-index: 2;
+    position: fixed;
+}
+
+.menu-button-line {
+    display: block;
+    position: relative;
+}
+
+.menu-button-line, .menu-button-line::before, .menu-button-line::after {
+    background: #000000;
+    height: 2px;
+    width: 24px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+}
+
+.menu-button-line::before {
+    content: '';
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    bottom: 8px;
+}
+
+.menu-button-line::after {
+    content: '';
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 8px;
+}
+
+.is-open::before {
+    opacity: 0;
+    transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.is-open::after {
+    transform: rotate(-90deg) translateX(8px);
+}
+
+.is-open {
+    transform: rotate(45deg);
+}
+
+@media only screen and (min-width: 576px) {
+    .menu-button {
+        display: none;
+        cursor: default;
+    }
+}
