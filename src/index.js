@@ -13,7 +13,6 @@ ReactDOM.render(
         <Main>
             <Route exact path="/" component={List} />
             <Route path="/contact" component={Contact} />
-            <Route path="/others" component={Contact} />
         </Main>
     </Router>,
     document.getElementById('root'));
