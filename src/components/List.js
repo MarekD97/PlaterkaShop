@@ -15,7 +15,7 @@ class List extends React.Component {
                     {data.map((item, index) =>
                         <ItemList
                             key={index}
-                            id={index}
+                            id={item.id}
                             front={item.frontImage}
                             back={item.backImage}
                             price={item.price}
@@ -36,7 +36,7 @@ class List extends React.Component {
                     {itemFilter.map((item, index) =>
                         <ItemList
                             key={index}
-                            id={index}
+                            id={item.id}
                             front={item.frontImage}
                             back={item.backImage}
                             price={item.price}
