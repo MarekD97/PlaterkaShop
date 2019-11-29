@@ -15,7 +15,7 @@ class List extends React.Component {
             const imageStyle = {
                 width: '370px',
                 height: '400px',
-                objectFit: 'cover',
+                objectFit: 'contain',
                 margin: 0
             };
             const h3Style = {

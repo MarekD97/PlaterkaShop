@@ -15,6 +15,8 @@ ReactDOM.render(
         <Main>
             <Switch>
                 <Route exact path="/" component={List} />
+                <Route path="/male" component={List} />
+                <Route path="/female" component={List} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/product/:value" component={Item} />
                 <Route exact path='*' component={NotFound} />

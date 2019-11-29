@@ -2,29 +2,29 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class ItemList extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            source: this.props.front,
-            descriptionOpacity: 0
-        };
-    }
     render() {
         const divStyle = {
             margin: '1em',
-            borderRadius: '0.4em'
+            borderRadius: '0.4em',
+            textDecoration: 'none',
+            color: '#000000',
+            width: '360px',
+            height: '560px',
+            display: 'flex',
+            flexDirection: 'column'
         }
         const imageStyle = {
-            width: '370px',
-            height: '400px',
-            objectFit: 'cover',
             margin: 0
         };
         const h3Style = {
-            textAlign: 'left',
-            padding: '0.4em 0 0.4em 1.6em',
-            margin: 0,
-            marginBottom: '1.6em'
+            boxSizing: 'border-box',
+            width: '100%',
+            textAlign: 'center',
+            height: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: '0 1em'
         };
         let descriptionStyle = {
             position: 'absolute',
@@ -33,31 +33,22 @@ class ItemList extends React.Component {
             width: '100%',
             padding: '1em 0',
             textAlign: 'center',
-            opacity: this.state.descriptionOpacity
+            display: 'none'
         }
         return (
             <Link
                 to={`/product/${this.props.id}`}
                 className="object"
                 style={divStyle}>
-                <img
-                    src={this.state.source}
-                    className="objectImage"
-                    style={imageStyle}
-                    onMouseEnter={() => {
-                        this.setState({
-                            source: this.props.back,
-                            descriptionOpacity: 1
-                        });
-                    }}
-                    onMouseOut={() => {
-                        this.setState({
-                            source: this.props.front,
-                            descriptionOpacity: 0
-                        });
-                    }} />
-                <p style={descriptionStyle}>{this.props.description}</p>
-                <h3 style={h3Style}>{this.props.children}</h3>
+                <div style={imageStyle}>
+                    <img
+                        src={this.props.front}
+                        className="objectImage"
+                        style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                </div>
+                <div style={h3Style}>
+                    <h3>{this.props.children}</h3>
+                </div>
             </Link>
         );
     }

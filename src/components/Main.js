@@ -30,8 +30,8 @@ class Main extends React.Component {
                 </div>
                 <MenuBar active={this.state.isMenuOpen}>
                     <MenuLink linkTo="/" onClick={this.handleClick}>Wszystko</MenuLink>
-                    <MenuLink linkTo="/" onClick={this.handleClick}>Chłopak</MenuLink>
-                    <MenuLink linkTo="/" onClick={this.handleClick}>Dziewczyna</MenuLink>
+                    <MenuLink linkTo="/male" onClick={this.handleClick}>Chłopak</MenuLink>
+                    <MenuLink linkTo="/female" onClick={this.handleClick}>Dziewczyna</MenuLink>
                     <MenuLink linkTo="/" onClick={this.handleClick}>Inne</MenuLink>
                     <MenuLink linkTo="/contact" onClick={this.handleClick}>Kontakt</MenuLink>
                 </MenuBar>

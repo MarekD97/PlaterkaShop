@@ -1,49 +1,84 @@
 export const data = [{
-    title: 'Bluza beżowa',
-    frontImage: require('./images/products/male/m01_front.png'),
-    backImage: require('./images/products/male/m01_back.png'),
-    description: 'Bluza jest beżowa',
+    title: 'Biała bluza z czarnym napisem',
+    frontImage: require('./images/products/male/01_front.jpg'),
+    backImage: require('./images/products/male/01_back.png'),
+    description: '',
     gender: 'male'
 },
 {
-    title: 'Bluza beżowa z ramką',
-    frontImage: require('./images/products/male/m02_front.png'),
-    backImage: require('./images/products/male/m02_back.png'),
-    description: 'Bluza jest beżowa z ramką',
+    title: 'Biała bluza z czarnym napisem w ramce',
+    frontImage: require('./images/products/male/02_front.jpg'),
+    backImage: require('./images/products/male/02_back.png'),
+    description: '',
     gender: 'male'
 },
 {
-    title: 'Bluza bordowa',
-    frontImage: require('./images/products/male/m03_front.png'),
-    backImage: require('./images/products/male/m03_back.png'),
-    description: 'Bluza jest bordowa',
+    title: 'Bordowa bluza z czarnym napisem',
+    frontImage: require('./images/products/male/03_front.jpg'),
+    backImage: null,
+    description: '',
     gender: 'male'
 },
 {
-    title: 'Bluza bordowa z ramką',
-    frontImage: require('./images/products/male/m04_front.png'),
-    backImage: require('./images/products/male/m04_back.png'),
-    description: 'Bluza jest bordowa z ramką',
+    title: 'Bordowa bluza z czarnym napisem w ramce',
+    frontImage: require('./images/products/male/04_front.jpg'),
+    backImage: null,
+    description: '',
     gender: 'male'
 },
 {
-    title: 'Bluza czarna',
-    frontImage: require('./images/products/male/m05_front.png'),
-    backImage: require('./images/products/male/m05_back.png'),
-    description: 'Bluza jest czarna',
+    title: 'Czarna bluza z białym napisem',
+    frontImage: require('./images/products/male/05_front.jpg'),
+    backImage: require('./images/products/male/05_back.png'),
+    description: '',
     gender: 'male'
 },
 {
-    title: 'Bluza czarna z ramką',
-    frontImage: require('./images/products/male/m06_front.png'),
-    backImage: require('./images/products/male/m06_back.png'),
-    description: 'Bluza jest czarna z ramką',
+    title: 'Czarna bluza z białym napisem w ramce',
+    frontImage: require('./images/products/male/06_front.jpg'),
+    backImage: require('./images/products/male/06_back.png'),
+    description: '',
     gender: 'male'
 },
 {
-    title: 'Bluza bordowa z ramką',
-    frontImage: require('./images/products/male/m07_front.png'),
-    backImage: require('./images/products/male/m07_back.png'),
-    description: 'Bluza jest bordowa z ramką',
-    gender: 'male'
-}];
+    title: 'Biała bluza z czarnym napisem',
+    frontImage: require('./images/products/female/01_front.jpg'),
+    backImage: null,
+    description: '',
+    gender: 'female'
+},
+{
+    title: 'Biała bluza z czarnym napisem w ramce',
+    frontImage: require('./images/products/female/02_front.jpg'),
+    backImage: null,
+    description: '',
+    gender: 'female'
+},
+{
+    title: 'Bordowa bluza z czarnym napisem',
+    frontImage: require('./images/products/female/03_front.jpg'),
+    backImage: null,
+    description: '',
+    gender: 'female'
+},
+{
+    title: 'Bordowa bluza z czarnym napisem w ramce',
+    frontImage: require('./images/products/female/04_front.jpg'),
+    backImage: null,
+    description: '',
+    gender: 'female'
+},
+{
+    title: 'Czarna bluza z białym napisem ',
+    frontImage: require('./images/products/female/05_front.jpg'),
+    backImage: null,
+    description: '',
+    gender: 'female'
+},
+{
+    title: 'Czarna bluza z białym napisem w ramce',
+    frontImage: require('./images/products/female/06_front.jpg'),
+    backImage: null,
+    description: '',
+    gender: 'female'
+}]

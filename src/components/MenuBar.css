@@ -67,7 +67,8 @@
     .menu-items {
         background: #f0f0f0;
         flex-direction: column;
-        padding: 6.4em 0 1em 0;
+        padding: 1em 0;
+        height: 100vh;
     }
     .menu-item {
         margin: 0.7em 0;
