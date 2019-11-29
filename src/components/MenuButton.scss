@@ -1,0 +1,64 @@
+.menu-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    border: 0;
+    height: 40px;
+    margin: 12px;
+    padding: 0 8px;
+    width: 40px;
+    cursor: pointer;
+    z-index: 2;
+    position: fixed;
+
+    &__line {
+        display: block;
+        position: relative;
+        background: #000000;
+        height: 2px;
+        width: 24px;
+        transition: transform 0.3s ease-in-out, opacity 0.3s;
+
+        &::before,
+        &::after {
+            content: '';
+            left: 0;
+            opacity: 1;
+            position: absolute;
+            background: #000000;
+            height: 2px;
+            width: 24px;
+            transition: transform 0.3s ease-in-out, opacity 0.3s;
+        }
+
+        &::before {
+            bottom: 8px;
+        }
+
+        &::after {
+            top: 8px;
+        }
+    }
+
+    &--active {
+        @extend .menu-button__line;
+        transform: rotate(45deg);
+
+        &::before {
+            opacity: 0;
+            transform: rotate(-45deg) translate(-4px, 4px);
+        }
+
+        &::after {
+            transform: rotate(-90deg) translateX(8px);
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .menu-button {
+        display: none;
+        cursor: default;
+    }
+}

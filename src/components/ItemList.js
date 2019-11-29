@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class ItemList extends React.Component {
     constructor(props) {
@@ -34,8 +35,12 @@ class ItemList extends React.Component {
             textAlign: 'center',
             opacity: this.state.descriptionOpacity
         }
+        let link = "/item:id=" + this.props.id;
         return (
-            <div className="object" style={divStyle}>
+            <Link
+                to={link}
+                className="object"
+                style={divStyle}>
                 <img
                     src={this.state.source}
                     className="objectImage"
@@ -54,7 +59,7 @@ class ItemList extends React.Component {
                     }} />
                 <p style={descriptionStyle}>{this.props.description}</p>
                 <h3 style={h3Style}>{this.props.children}</h3>
-            </div>
+            </Link>
         );
     }
 };

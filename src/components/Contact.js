@@ -27,7 +27,7 @@ class Contact extends React.Component {
                             style={{ backgroundColor: '#ffffff' }} />
                     </a>
                     <h3>Autor strony:</h3>
-                    <p>Marek Dorosz:</p><u>mdorosz2@wp.pl</u>
+                    <p>Marek Dorosz</p><u>mdorosz2@wp.pl</u>
                 </div>
             </div>
         )
