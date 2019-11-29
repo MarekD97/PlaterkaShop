@@ -14,7 +14,7 @@ ReactDOM.render(
         <Main>
             <Route exact path="/" component={List} />
             <Route path="/contact" component={Contact} />
-            <Route path="/item:id" component={Item} />
+            <Route path="/product/:value" component={Item} />
         </Main>
     </Router>,
     document.getElementById('root'));

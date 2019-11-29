@@ -35,10 +35,9 @@ class ItemList extends React.Component {
             textAlign: 'center',
             opacity: this.state.descriptionOpacity
         }
-        let link = "/item:id=" + this.props.id;
         return (
             <Link
-                to={link}
+                to={`/product/${this.props.id}`}
                 className="object"
                 style={divStyle}>
                 <img

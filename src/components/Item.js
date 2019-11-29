@@ -1,20 +1,7 @@
 import React from 'react';
-import ItemList from './ItemList.js';
 import { data } from '../data.js'
 
 class List extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            selected: false
-        }
-        this.handleClick = this.handleClick.bind(this);
-    }
-    handleClick(event, index) {
-        this.setState({ selected: true });
-        console.log(this.state.selected);
-        console.log(index);
-    }
     render() {
         const id = this.props.location.pathname.substring(9, this.props.location.pathname.length);
         if (data[id] == undefined) {
@@ -41,7 +28,7 @@ class List extends React.Component {
                 width: '100%',
                 padding: '1em 0',
                 textAlign: 'center',
-                opacity: this.state.descriptionOpacity
+                opacity: 1
             }
             return (
                 <div className="content">
