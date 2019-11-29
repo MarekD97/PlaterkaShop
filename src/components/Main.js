@@ -23,7 +23,7 @@ class Main extends React.Component {
             }
         }
         return (
-            <>
+            <div style={{ position: 'relative', minHeight: '100vh' }}>
                 <MenuButton active={this.state.isMenuOpen} handler={this.handleClick} />
                 <div className={this.state.isMenuOpen ? "menu-logo" : "menu-logo menu-logo-hidden"}>
                     <img src={require('../images/logo.png')} style={styles.logo} />
@@ -35,9 +35,11 @@ class Main extends React.Component {
                     <MenuLink linkTo="/" onClick={this.handleClick}>Inne</MenuLink>
                     <MenuLink linkTo="/contact" onClick={this.handleClick}>Kontakt</MenuLink>
                 </MenuBar>
-                {this.props.children}
+                <div style={{ paddingBottom: '3rem' }}>
+                    {this.props.children}
+                </div>
                 <Footer />
-            </>
+            </div>
         );
     }
 };

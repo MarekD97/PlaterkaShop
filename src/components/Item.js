@@ -17,11 +17,11 @@ class List extends React.Component {
     }
     render() {
         const id = this.props.location.pathname.substring(9, this.props.location.pathname.length);
-        if (id == undefined) {
+        if (data[id] == undefined) {
             return (
                 <div className="content">
                     <div className="header">
-                        <h1>Brak takiego produktu</h1>
+                        <h1>Taki produkt nie istnieje</h1>
                     </div>
                 </div>)
         } else {
@@ -46,14 +46,13 @@ class List extends React.Component {
             return (
                 <div className="content">
                     <div className="header">
-                        <h1>Bluzy i Koszulki</h1>
+                        <h1>{data[id].title}</h1>
                     </div>
                     <img
                         src={data[id].frontImage}
                         className="objectImage"
                         style={imageStyle} />
                     <p style={descriptionStyle}>{data[id].description}</p>
-                    <h3 style={h3Style}>{data[id].title}</h3>
                 </div>
             );
         }

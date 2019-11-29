@@ -6,7 +6,11 @@ class Footer extends React.Component {
             footer: {
                 display: 'flex',
                 justifyContent: 'center',
-                background: 'linear-gradient(to bottom, #ffffff, #f0f0f0)'
+                background: 'linear-gradient(to bottom, #ffffff, #f0f0f0)',
+                position: 'absolute',
+                bottom: 0,
+                height: '3rem',
+                width: '100%'
             }
         }
         return (
