@@ -3,6 +3,7 @@ import MenuBar from './MenuBar.js';
 import Footer from './Footer.js';
 import MenuButton from './MenuButton.js';
 import MenuLink from './MenuLink.js';
+import { data } from '../data.js';
 
 class Main extends React.Component {
     constructor(props) {
@@ -16,6 +17,14 @@ class Main extends React.Component {
         this.setState({ isMenuOpen: !this.state.isMenuOpen });
     }
     render() {
+        var jakis_string = JSON.stringify(data)
+        console.log(jakis_string)
+        // var obiekt_JSON = JSON.parse(jakis_string)
+        // console.log(obiekt_JSON)
+        // var frontImage = obiekt_JSON[0].title
+        // for (var obj in obiekt_JSON) {
+        //     console.log(obj['title'])
+        // }
         const styles = {
             logo: {
                 width: "100%",

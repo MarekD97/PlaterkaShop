@@ -1,9 +1,11 @@
 import React from 'react';
 import ItemList from './ItemList.js';
-import { data } from '../data.js'
+import data from '../data.json';
 
 class List extends React.Component {
     render() {
+        JSON.parse(JSON.stringify(data));
+        console.log(data);
         var path = this.props.location.pathname.substring(1, this.props.location.pathname.length);
         console.log(path);
         if (path == '') {
@@ -16,8 +18,8 @@ class List extends React.Component {
                         <ItemList
                             key={index}
                             id={item.id}
-                            front={item.frontImage}
-                            back={item.backImage}
+                            front={window.location.origin + item.frontImage}
+                            back={window.location.origin + item.backImage}
                             price={item.price}
                             description={item.description}>
                             {item.title}
@@ -37,8 +39,8 @@ class List extends React.Component {
                         <ItemList
                             key={index}
                             id={item.id}
-                            front={item.frontImage}
-                            back={item.backImage}
+                            front={window.location.origin + item.frontImage}
+                            back={window.location.origin + item.backImage}
                             price={item.price}
                             description={item.description}>
                             {item.title}
