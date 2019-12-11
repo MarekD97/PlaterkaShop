@@ -1,0 +1,686 @@
+[
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Biała bluza z czarnym napisem",
+        "images": [
+            "/images/products/male/01_front.jpg",
+            "/images/products/male/01_back.png"
+        ],
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "male",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": [
+            {
+                "measurement": "Klatka piersiowa",
+                "xs": "49",
+                "s": "51",
+                "m": "56",
+                "l": "61",
+                "xl": "65",
+                "xxl": "69",
+                "xxxl": "73",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość ciała",
+                "xs": "66",
+                "s": "69",
+                "m": "72",
+                "l": "75",
+                "xl": "78",
+                "xxl": "81",
+                "xxxl": "84",
+                "tolerance": "2"
+            },
+            {
+                "measurement": "Długość rękawa",
+                "xs": "57,5",
+                "s": "59",
+                "m": "60,5",
+                "l": "62",
+                "xl": "63,5",
+                "xxl": "65",
+                "xxxl": "66,5",
+                "tolerance": "2"
+            }
+        ]
+    }
+]

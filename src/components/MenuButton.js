@@ -8,7 +8,7 @@ class MenuButton extends React.Component {
             line: !this.props.active ? 'menu-button__line' : 'menu-button--active'
         }
         return (
-            <button className={styles.button} onClick={this.props.handler} >
+            <button className={styles.button} onClick={this.props.handleClick} >
                 <div className={styles.line}></div>
             </button>
         );

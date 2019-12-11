@@ -4,6 +4,8 @@ import './MenuLink.min.css';
 
 class MenuLink extends React.Component {
     render() {
+        let isMobile = window.innerWidth;
+        console.log(isMobile);
         const styles = {
             linkItem: 'menu-link__item',
             link: 'menu-link'
@@ -12,7 +14,7 @@ class MenuLink extends React.Component {
             <li className={styles.link}>
                 <Link
                     to={this.props.linkTo}
-                    onClick={this.props.onClick}
+                    onClick={this.props.handleClick}
                     className={styles.linkItem}>
                     {this.props.children}
                 </Link>

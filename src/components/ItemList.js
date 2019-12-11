@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+import './MenuBar.css';
 
 class ItemList extends React.Component {
     render() {
@@ -11,7 +12,8 @@ class ItemList extends React.Component {
             width: '360px',
             height: '560px',
             display: 'flex',
-            flexDirection: 'column'
+            flexDirection: 'column',
+            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)'
         }
         const imageStyle = {
             margin: 0
@@ -26,18 +28,9 @@ class ItemList extends React.Component {
             alignItems: 'center',
             padding: '0 1em'
         };
-        let descriptionStyle = {
-            position: 'absolute',
-            bottom: '3em',
-            background: 'linear-gradient(to top, #ffffff, #f0f0f0a0)',
-            width: '100%',
-            padding: '1em 0',
-            textAlign: 'center',
-            display: 'none'
-        }
         return (
             <Link
-                to={`/product/${this.props.id}`}
+                to={`/id:${this.props.id}`}
                 className="object"
                 style={divStyle}>
                 <div style={imageStyle}>
