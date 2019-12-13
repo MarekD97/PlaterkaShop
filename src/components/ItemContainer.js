@@ -48,34 +48,7 @@ class List extends React.Component {
                             {data[id].description.map(item => <p>{item}</p>)}
                             <p>Materiał: {data[id].material}</p>
                             <p>Gramatura: {data[id].weight}</p>
-                            <p>Rozmiary:
-                                <table>
-                                    <tr>
-                                        <td> </td>
-                                        <td>XS</td>
-                                        <td>S</td>
-                                        <td>M</td>
-                                        <td>L</td>
-                                        <td>XL</td>
-                                        <td>XXL</td>
-                                        <td>3XL</td>
-                                        <td>Tolerancja +/-</td>
-                                    </tr>
-                                    {data[id].measurements.map(item =>
-                                        <tr>
-                                            <td>{item.measurement}</td>
-                                            <td>{item.xs} cm</td>
-                                            <td>{item.s} cm</td>
-                                            <td>{item.m} cm</td>
-                                            <td>{item.l} cm</td>
-                                            <td>{item.xl} cm</td>
-                                            <td>{item.xxl} cm</td>
-                                            <td>{item.xxxl} cm</td>
-                                            <td>{item.tolerance} cm</td>
-                                        </tr>
-
-                                    )}
-                                </table></p>
+                            <p>Rozmiary: {data[id].measurements}</p>
                         </div>
                     </div>
                 </div >

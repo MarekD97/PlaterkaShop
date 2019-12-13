@@ -17,7 +17,15 @@ class Contact extends React.Component {
             <div style={contactStyle}>
                 <h3>Sklep z bluzami i koszulkami Platerki:</h3>
                 <p>Marcin Gordziejewski</p>
-                <a href="https://www.facebook.com/marcin.gordziejewski.9?fref=hovercard&hc_location=chat">
+                <a href="https://www.facebook.com/marcin.gordziejewski.9">
+                    <img
+                        src="https://image.flaticon.com/icons/svg/124/124010.svg"
+                        width="48"
+                        height="48"
+                        style={{ backgroundColor: '#ffffff' }} />
+                </a>
+                <p>Zuzia Pawłowska</p>
+                <a href="https://www.facebook.com/profile.php?id=100006640781491">
                     <img
                         src="https://image.flaticon.com/icons/svg/124/124010.svg"
                         width="48"
