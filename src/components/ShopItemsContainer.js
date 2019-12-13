@@ -23,9 +23,11 @@ class List extends React.Component {
                 return item.title.toLowerCase().search(this.state.search) !== -1;
             else {
                 if (path == "meska")
-                    return item.gender == "male";
+                    return item.gender == "m";
                 else if (path == "damska")
-                    return item.gender == "female";
+                    return item.gender == "k";
+                else if (path == "akcesoria")
+                    return item.gender == "u";
                 else
                     return item;
             }

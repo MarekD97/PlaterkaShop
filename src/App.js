@@ -16,6 +16,7 @@ class App extends React.Component {
                         <Route exact path="/" component={ShopItemsContainer} />
                         <Route path="/meska" component={ShopItemsContainer} />
                         <Route path="/damska" component={ShopItemsContainer} />
+                        <Route path="/akcesoria" component={ShopItemsContainer} />
                         <Route path="/kontakt" component={Contact} />
                         <Route path="/id:id" component={ItemContainer} />
                         <Route exact path='*' component={NoMatch} />

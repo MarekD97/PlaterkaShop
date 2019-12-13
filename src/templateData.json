@@ -1,10 +1,11 @@
 [
     {
         "id": "0",
-        "title": "Bluza biała",
+        "title": "Bluza biała - damska",
         "images": [
             "/images/Bluzy damskie/BiałaDamskaPrzód.svg"
         ],
+        "price": "80 zł",
         "description": [
             "Mieszanka bawełny ring-spun i poliestru",
             "Kobiecy krój",
@@ -21,10 +22,11 @@
     },
     {
         "id": "1",
-        "title": "Bluza różowa",
+        "title": "Bluza różowa - damska",
         "images": [
             "/images/Bluzy damskie/BluzaDamskaRózowa.svg"
         ],
+        "price": "80 zł",
         "description": [
             "Mieszanka bawełny ring-spun i poliestru",
             "Kobiecy krój",
@@ -41,10 +43,11 @@
     },
     {
         "id": "2",
-        "title": "Bluza bordowa",
+        "title": "Bluza bordowa - damska",
         "images": [
             "/images/Bluzy damskie/BordowaDamskaPrzód.svg"
         ],
+        "price": "80 zł",
         "description": [
             "Mieszanka bawełny ring-spun i poliestru",
             "Kobiecy krój",
@@ -61,10 +64,11 @@
     },
     {
         "id": "3",
-        "title": "Bluza zielona",
+        "title": "Bluza zielona - damska",
         "images": [
             "/images/Bluzy damskie/ButelkowaZielenXDDDDDamskaPrzód.svg"
         ],
+        "price": "80 zł",
         "description": [
             "Mieszanka bawełny ring-spun i poliestru",
             "Kobiecy krój",
@@ -81,10 +85,11 @@
     },
     {
         "id": "4",
-        "title": "Bluza czarna",
+        "title": "Bluza czarna - damska",
         "images": [
             "/images/Bluzy damskie/CzarnaDamskaPrzód.svg"
         ],
+        "price": "80 zł",
         "description": [
             "Mieszanka bawełny ring-spun i poliestru",
             "Kobiecy krój",
@@ -98,5 +103,466 @@
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
+    },
+    {
+        "id": "5",
+        "title": "Bluza biała - męska",
+        "images": [
+            "/images/Bluzy męskie/BiałaMęskaPrzód.svg"
+        ],
+        "price": "80 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "6",
+        "title": "Bluza bordowa - męska",
+        "images": [
+            "/images/Bluzy męskie/BordowaMęskaPrzód.svg"
+        ],
+        "price": "80 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "7",
+        "title": "Bluza czarna - męska",
+        "images": [
+            "/images/Bluzy męskie/CzarnaMęskaPrzód.svg"
+        ],
+        "price": "80 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "8",
+        "title": "Bluza różowa - męska",
+        "images": [
+            "/images/Bluzy męskie/RózowaMęskaPrzód.svg"
+        ],
+        "price": "80 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "9",
+        "title": "Bluza zielona - męska",
+        "images": [
+            "/images/Bluzy męskie/ZielonaMęskaPrzód.svg"
+        ],
+        "price": "80 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "10",
+        "title": "Koszulka biała - damska",
+        "images": [
+            "/images/Koszulka damska/KoszulkaDamskaBiała.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Mieszanka bawełny ring-spun i poliestru",
+            "Kobiecy krój",
+            "Detale obszyte podwójnym szwem",
+            "Dwuwarstwowy kaptur z troczkami w tym samym kolorze",
+            "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
+            "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej",
+            "Certyfikat: Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "k",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
+    },
+    {
+        "id": "11",
+        "title": "Koszulka bordowa - damska",
+        "images": [
+            "/images/Koszulka damska/KoszulkaDamskaBordowa.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Mieszanka bawełny ring-spun i poliestru",
+            "Kobiecy krój",
+            "Detale obszyte podwójnym szwem",
+            "Dwuwarstwowy kaptur z troczkami w tym samym kolorze",
+            "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
+            "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej",
+            "Certyfikat: Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "k",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
+    },
+    {
+        "id": "12",
+        "title": "Koszulka czarna - damska",
+        "images": [
+            "/images/Koszulka damska/KoszulkaDamskaCzarna.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Mieszanka bawełny ring-spun i poliestru",
+            "Kobiecy krój",
+            "Detale obszyte podwójnym szwem",
+            "Dwuwarstwowy kaptur z troczkami w tym samym kolorze",
+            "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
+            "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej",
+            "Certyfikat: Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "k",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
+    },
+    {
+        "id": "13",
+        "title": "Koszulka zielona - damska",
+        "images": [
+            "/images/Koszulka damska/KoszulkaDamskaZielona.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Mieszanka bawełny ring-spun i poliestru",
+            "Kobiecy krój",
+            "Detale obszyte podwójnym szwem",
+            "Dwuwarstwowy kaptur z troczkami w tym samym kolorze",
+            "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
+            "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej",
+            "Certyfikat: Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "k",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
+    },
+    {
+        "id": "14",
+        "title": "Koszulka biała - męska",
+        "images": [
+            "/images/Koszulka męska/KoszulkaMęskaBiała.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "15",
+        "title": "Koszulka bordowa - męska",
+        "images": [
+            "/images/Koszulka męska/KoszulkaMęskaBordowa.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "16",
+        "title": "Koszulka czarna - męska",
+        "images": [
+            "/images/Koszulka męska/KoszulkaMęskaCzarna.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "17",
+        "title": "Koszulka zielona - męska",
+        "images": [
+            "/images/Koszulka męska/KoszulkaMęskaZielona.svg"
+        ],
+        "price": "45 zł",
+        "description": [
+            "Podwójnie wyszyty detal",
+            "Dwuczęściowy kaptur z podwójnego materiału",
+            "Płaskie troczki",
+            "Brak kieszeni dla maksymalnej powierzchni nadruku",
+            "Ukryte pętelki na słuchawki",
+            "Prążkowane ściągacze i obszycie",
+            "Tkanina z miękkiej bawełny o idealnej powierzchni do nadruku",
+            "Idealna do rebrandingu dzięki odrywanej metce",
+            "Produkcja z certyfikatem Worldwide Responsible Accredited Production (WRAP)"
+        ],
+        "gender": "m",
+        "material": "80% bawełna / 20% poliester",
+        "weight": "280 g/m2",
+        "measurements": "Rozmiary: https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
+    },
+    {
+        "id": "18",
+        "title": "Torba bordowa",
+        "images": [
+            "/images/Torba/TorbaBordowa.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Bawełna",
+            "Długość uchwytów ok. 69 cm",
+            "Pojemność ok.10 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "38 x 42 cm"
+    },
+    {
+        "id": "19",
+        "title": "Torba czarna",
+        "images": [
+            "/images/Torba/TorbaCzarna.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Bawełna",
+            "Długość uchwytów ok. 69 cm",
+            "Pojemność ok.10 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "38 x 42 cm"
+    },
+    {
+        "id": "20",
+        "title": "Torba różowa",
+        "images": [
+            "/images/Torba/TorbaRózowa.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Bawełna",
+            "Długość uchwytów ok. 69 cm",
+            "Pojemność ok.10 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "38 x 42 cm"
+    },
+    {
+        "id": "21",
+        "title": "Torba zielona",
+        "images": [
+            "/images/Torba/TorbaZielona.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Bawełna",
+            "Długość uchwytów ok. 69 cm",
+            "Pojemność ok.10 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "38 x 42 cm"
+    },
+    {
+        "id": "22",
+        "title": "Torba biała",
+        "images": [
+            "/images/Torba/Trobabiała.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Bawełna",
+            "Długość uchwytów ok. 69 cm",
+            "Pojemność ok.10 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "38 x 42 cm"
+    },
+    {
+        "id": "23",
+        "title": "Plecak biały",
+        "images": [
+            "/images/Worek (plecak)/PlecakBiały.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Naturalna alternatywa dla poliesterowych worków na siłownię",
+            "Wiązany na sznurek",
+            "Pojemność ok. 12 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "37 x 46 cm"
+    },
+    {
+        "id": "24",
+        "title": "Plecak bordowy",
+        "images": [
+            "/images/Worek (plecak)/PlecakBordowy.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Naturalna alternatywa dla poliesterowych worków na siłownię",
+            "Wiązany na sznurek",
+            "Pojemność ok. 12 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "37 x 46 cm"
+    },
+    {
+        "id": "25",
+        "title": "Plecak czarny",
+        "images": [
+            "/images/Worek (plecak)/PlecakCzarny.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Naturalna alternatywa dla poliesterowych worków na siłownię",
+            "Wiązany na sznurek",
+            "Pojemność ok. 12 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "37 x 46 cm"
+    },
+    {
+        "id": "26",
+        "title": "Plecak różowy",
+        "images": [
+            "/images/Worek (plecak)/PlecakRózowy.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Naturalna alternatywa dla poliesterowych worków na siłownię",
+            "Wiązany na sznurek",
+            "Pojemność ok. 12 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "37 x 46 cm"
+    },
+    {
+        "id": "27",
+        "title": "Plecak zielony",
+        "images": [
+            "/images/Worek (plecak)/PlecakZielony.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Naturalna alternatywa dla poliesterowych worków na siłownię",
+            "Wiązany na sznurek",
+            "Pojemność ok. 12 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "37 x 46 cm"
     }
 ]
