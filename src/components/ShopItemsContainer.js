@@ -35,7 +35,7 @@ class List extends React.Component {
         const styles = {
             header: {
                 textAlign: 'left',
-                padding: window.innerWidth > 576 ? '0 6em' : 0,
+                padding: window.innerWidth < 576 ? '1em 1em 0 1em' : '0 6em',
                 width: '100%'
             }
         }
@@ -47,7 +47,6 @@ class List extends React.Component {
                         key={index}
                         id={item.id}
                         front={window.location.origin + item.images[0]}
-                        back={window.location.origin + item.images[1]}
                         price={item.price}
                         description={item.description}>
                         {item.title}

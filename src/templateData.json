@@ -397,6 +397,23 @@
     },
     {
         "id": "18",
+        "title": "Torba biała",
+        "images": [
+            "/images/Torba/Trobabiała.svg"
+        ],
+        "price": "25 zł",
+        "description": [
+            "Bawełna",
+            "Długość uchwytów ok. 69 cm",
+            "Pojemność ok.10 litrów"
+        ],
+        "gender": "u",
+        "material": "100% bawełna",
+        "weight": "140 g/m2",
+        "measurements": "38 x 42 cm"
+    },
+    {
+        "id": "19",
         "title": "Torba bordowa",
         "images": [
             "/images/Torba/TorbaBordowa.svg"
@@ -413,7 +430,7 @@
         "measurements": "38 x 42 cm"
     },
     {
-        "id": "19",
+        "id": "20",
         "title": "Torba czarna",
         "images": [
             "/images/Torba/TorbaCzarna.svg"
@@ -430,7 +447,7 @@
         "measurements": "38 x 42 cm"
     },
     {
-        "id": "20",
+        "id": "21",
         "title": "Torba różowa",
         "images": [
             "/images/Torba/TorbaRózowa.svg"
@@ -447,27 +464,10 @@
         "measurements": "38 x 42 cm"
     },
     {
-        "id": "21",
+        "id": "22",
         "title": "Torba zielona",
         "images": [
             "/images/Torba/TorbaZielona.svg"
-        ],
-        "price": "25 zł",
-        "description": [
-            "Bawełna",
-            "Długość uchwytów ok. 69 cm",
-            "Pojemność ok.10 litrów"
-        ],
-        "gender": "u",
-        "material": "100% bawełna",
-        "weight": "140 g/m2",
-        "measurements": "38 x 42 cm"
-    },
-    {
-        "id": "22",
-        "title": "Torba biała",
-        "images": [
-            "/images/Torba/Trobabiała.svg"
         ],
         "price": "25 zł",
         "description": [

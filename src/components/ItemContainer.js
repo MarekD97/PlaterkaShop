@@ -16,10 +16,11 @@ class List extends React.Component {
         } else {
             const styles = {
                 image: {
-                    width: '370px',
+                    width: '370',
                     height: '400px',
                     objectFit: 'contain',
-                    margin: 0
+                    margin: 0,
+                    transform: 'scale(1.4)'
                 },
                 h1: {
                     textAlign: 'left',
@@ -30,10 +31,14 @@ class List extends React.Component {
                 div: {
                     width: '100%',
                     display: 'flex',
-                    justifyContent: 'center'
+                    justifyContent: 'center',
+                    overflow: 'hidden'
                 },
                 header: {
                     padding: '0 1em',
+                },
+                h3: {
+                    fontWeight: 'bold'
                 }
             }
             return (
@@ -45,10 +50,14 @@ class List extends React.Component {
                             style={styles.image} />
                         <div style={{ padding: '0 1em' }}>
                             <h1>{data[id].title}</h1>
+                            <h3 style={styles.h3}>Opis</h3>
                             {data[id].description.map(item => <p>{item}</p>)}
-                            <p>Materiał: {data[id].material}</p>
-                            <p>Gramatura: {data[id].weight}</p>
-                            <p>Rozmiary: {data[id].measurements}</p>
+                            <h3 style={styles.h3}>Materiał</h3>
+                            <p>{data[id].material}</p>
+                            <h3 style={styles.h3}>Gramatura</h3>
+                            <p>{data[id].weight}</p>
+                            <h3 style={styles.h3}>Rozmiary</h3>
+                            <p>{data[id].measurements}</p>
                         </div>
                     </div>
                 </div >
