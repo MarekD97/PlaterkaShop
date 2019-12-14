@@ -16,29 +16,33 @@ class List extends React.Component {
         } else {
             const styles = {
                 image: {
-                    width: '370',
-                    height: '400px',
+                    width: '436px',
+                    height: '436px',
                     objectFit: 'contain',
                     margin: 0,
-                    transform: 'scale(1.4)'
+                    backgroundColor: '#F4F4F4'
                 },
-                h1: {
+                title: {
                     textAlign: 'left',
-                    padding: '0.4em 0 0.4em 1.6em',
                     margin: 0,
-                    marginBottom: '1.6em'
+                    fontSize: '1.4em'
                 },
                 div: {
                     width: '100%',
                     display: 'flex',
                     justifyContent: 'center',
+                    alignItems: 'center',
                     overflow: 'hidden'
                 },
                 header: {
                     padding: '0 1em',
                 },
                 h3: {
+                    margin: 0,
                     fontWeight: 'bold'
+                },
+                p: {
+                    margin: 0
                 }
             }
             return (
@@ -49,15 +53,16 @@ class List extends React.Component {
                             className="objectImage"
                             style={styles.image} />
                         <div style={{ padding: '0 1em' }}>
-                            <h1>{data[id].title}</h1>
-                            <h3 style={styles.h3}>Opis</h3>
-                            {data[id].description.map(item => <p>{item}</p>)}
+                            <h3 style={styles.title}>{data[id].title}</h3>
+                            <p style={styles.p}>{data[id].price}</p><br />
                             <h3 style={styles.h3}>Materiał</h3>
-                            <p>{data[id].material}</p>
+                            <p style={styles.p}>{data[id].material}</p><br />
                             <h3 style={styles.h3}>Gramatura</h3>
-                            <p>{data[id].weight}</p>
+                            <p style={styles.p}>{data[id].weight}</p><br />
+                            <h3 style={styles.h3}>Opis</h3>
+                            {data[id].description.map(item => <p style={styles.p}>{item}</p>)}<br />
                             <h3 style={styles.h3}>Rozmiary</h3>
-                            <p>{data[id].measurements}</p>
+                            <p style={styles.p}>{data[id].measurements}</p>
                         </div>
                     </div>
                 </div >

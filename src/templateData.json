@@ -3,7 +3,7 @@
         "id": "0",
         "title": "Bluza biała - damska",
         "images": [
-            "/images/Bluzy damskie/BiałaDamskaPrzód.svg"
+            "/images/Bluzy damskie/BiałaDamskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -24,7 +24,7 @@
         "id": "1",
         "title": "Bluza różowa - damska",
         "images": [
-            "/images/Bluzy damskie/BluzaDamskaRózowa.svg"
+            "/images/Bluzy damskie/BluzaDamskaRózowa.png"
         ],
         "price": "80 zł",
         "description": [
@@ -45,7 +45,7 @@
         "id": "2",
         "title": "Bluza bordowa - damska",
         "images": [
-            "/images/Bluzy damskie/BordowaDamskaPrzód.svg"
+            "/images/Bluzy damskie/BordowaDamskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -66,7 +66,7 @@
         "id": "3",
         "title": "Bluza zielona - damska",
         "images": [
-            "/images/Bluzy damskie/ButelkowaZielenXDDDDDamskaPrzód.svg"
+            "/images/Bluzy damskie/ButelkowaZielenXDDDDDamskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -87,7 +87,7 @@
         "id": "4",
         "title": "Bluza czarna - damska",
         "images": [
-            "/images/Bluzy damskie/CzarnaDamskaPrzód.svg"
+            "/images/Bluzy damskie/CzarnaDamskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -108,7 +108,7 @@
         "id": "5",
         "title": "Bluza biała - męska",
         "images": [
-            "/images/Bluzy męskie/BiałaMęskaPrzód.svg"
+            "/images/Bluzy męskie/BiałaMęskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -131,7 +131,7 @@
         "id": "6",
         "title": "Bluza bordowa - męska",
         "images": [
-            "/images/Bluzy męskie/BordowaMęskaPrzód.svg"
+            "/images/Bluzy męskie/BordowaMęskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -154,7 +154,7 @@
         "id": "7",
         "title": "Bluza czarna - męska",
         "images": [
-            "/images/Bluzy męskie/CzarnaMęskaPrzód.svg"
+            "/images/Bluzy męskie/CzarnaMęskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -177,7 +177,7 @@
         "id": "8",
         "title": "Bluza różowa - męska",
         "images": [
-            "/images/Bluzy męskie/RózowaMęskaPrzód.svg"
+            "/images/Bluzy męskie/RózowaMęskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -200,7 +200,7 @@
         "id": "9",
         "title": "Bluza zielona - męska",
         "images": [
-            "/images/Bluzy męskie/ZielonaMęskaPrzód.svg"
+            "/images/Bluzy męskie/ZielonaMęskaPrzód.png"
         ],
         "price": "80 zł",
         "description": [
@@ -223,7 +223,7 @@
         "id": "10",
         "title": "Koszulka biała - damska",
         "images": [
-            "/images/Koszulka damska/KoszulkaDamskaBiała.svg"
+            "/images/Koszulka damska/KoszulkaDamskaBiała.png"
         ],
         "price": "45 zł",
         "description": [
@@ -244,7 +244,7 @@
         "id": "11",
         "title": "Koszulka bordowa - damska",
         "images": [
-            "/images/Koszulka damska/KoszulkaDamskaBordowa.svg"
+            "/images/Koszulka damska/KoszulkaDamskaBordowa.png"
         ],
         "price": "45 zł",
         "description": [
@@ -265,7 +265,7 @@
         "id": "12",
         "title": "Koszulka czarna - damska",
         "images": [
-            "/images/Koszulka damska/KoszulkaDamskaCzarna.svg"
+            "/images/Koszulka damska/KoszulkaDamskaCzarna.png"
         ],
         "price": "45 zł",
         "description": [
@@ -286,7 +286,7 @@
         "id": "13",
         "title": "Koszulka zielona - damska",
         "images": [
-            "/images/Koszulka damska/KoszulkaDamskaZielona.svg"
+            "/images/Koszulka damska/KoszulkaDamskaZielona.png"
         ],
         "price": "45 zł",
         "description": [
@@ -307,7 +307,7 @@
         "id": "14",
         "title": "Koszulka biała - męska",
         "images": [
-            "/images/Koszulka męska/KoszulkaMęskaBiała.svg"
+            "/images/Koszulka męska/KoszulkaMęskaBiała.png"
         ],
         "price": "45 zł",
         "description": [
@@ -330,7 +330,7 @@
         "id": "15",
         "title": "Koszulka bordowa - męska",
         "images": [
-            "/images/Koszulka męska/KoszulkaMęskaBordowa.svg"
+            "/images/Koszulka męska/KoszulkaMęskaBordowa.png"
         ],
         "price": "45 zł",
         "description": [
@@ -353,7 +353,7 @@
         "id": "16",
         "title": "Koszulka czarna - męska",
         "images": [
-            "/images/Koszulka męska/KoszulkaMęskaCzarna.svg"
+            "/images/Koszulka męska/KoszulkaMęskaCzarna.png"
         ],
         "price": "45 zł",
         "description": [
@@ -376,7 +376,7 @@
         "id": "17",
         "title": "Koszulka zielona - męska",
         "images": [
-            "/images/Koszulka męska/KoszulkaMęskaZielona.svg"
+            "/images/Koszulka męska/KoszulkaMęskaZielona.png"
         ],
         "price": "45 zł",
         "description": [
@@ -399,7 +399,7 @@
         "id": "18",
         "title": "Torba biała",
         "images": [
-            "/images/Torba/Trobabiała.svg"
+            "/images/Torba/Trobabiała.png"
         ],
         "price": "25 zł",
         "description": [
@@ -416,7 +416,7 @@
         "id": "19",
         "title": "Torba bordowa",
         "images": [
-            "/images/Torba/TorbaBordowa.svg"
+            "/images/Torba/TorbaBordowa.png"
         ],
         "price": "25 zł",
         "description": [
@@ -433,7 +433,7 @@
         "id": "20",
         "title": "Torba czarna",
         "images": [
-            "/images/Torba/TorbaCzarna.svg"
+            "/images/Torba/TorbaCzarna.png"
         ],
         "price": "25 zł",
         "description": [
@@ -450,7 +450,7 @@
         "id": "21",
         "title": "Torba różowa",
         "images": [
-            "/images/Torba/TorbaRózowa.svg"
+            "/images/Torba/TorbaRózowa.png"
         ],
         "price": "25 zł",
         "description": [
@@ -467,7 +467,7 @@
         "id": "22",
         "title": "Torba zielona",
         "images": [
-            "/images/Torba/TorbaZielona.svg"
+            "/images/Torba/TorbaZielona.png"
         ],
         "price": "25 zł",
         "description": [
@@ -484,7 +484,7 @@
         "id": "23",
         "title": "Plecak biały",
         "images": [
-            "/images/Worek (plecak)/PlecakBiały.svg"
+            "/images/Worek (plecak)/PlecakBiały.png"
         ],
         "price": "25 zł",
         "description": [
@@ -501,7 +501,7 @@
         "id": "24",
         "title": "Plecak bordowy",
         "images": [
-            "/images/Worek (plecak)/PlecakBordowy.svg"
+            "/images/Worek (plecak)/PlecakBordowy.png"
         ],
         "price": "25 zł",
         "description": [
@@ -518,7 +518,7 @@
         "id": "25",
         "title": "Plecak czarny",
         "images": [
-            "/images/Worek (plecak)/PlecakCzarny.svg"
+            "/images/Worek (plecak)/PlecakCzarny.png"
         ],
         "price": "25 zł",
         "description": [
@@ -535,7 +535,7 @@
         "id": "26",
         "title": "Plecak różowy",
         "images": [
-            "/images/Worek (plecak)/PlecakRózowy.svg"
+            "/images/Worek (plecak)/PlecakRózowy.png"
         ],
         "price": "25 zł",
         "description": [
@@ -552,7 +552,7 @@
         "id": "27",
         "title": "Plecak zielony",
         "images": [
-            "/images/Worek (plecak)/PlecakZielony.svg"
+            "/images/Worek (plecak)/PlecakZielony.png"
         ],
         "price": "25 zł",
         "description": [

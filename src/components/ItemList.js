@@ -6,10 +6,10 @@ class ItemList extends React.Component {
     render() {
         const styles = {
             h3: {
-                padding: '1em 0'
+                margin: 0
             },
             p: {
-                color: '#cc0000'
+                margin: 0
             },
             div: {
                 width: '100%',
@@ -18,21 +18,24 @@ class ItemList extends React.Component {
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
+                padding: '0.4em 0'
             },
             imgContainer: {
                 margin: 0,
-                overflow: 'hidden'
+                overflow: 'hidden',
+                backgroundColor: '#F4F4F4'
             },
             item: {
-                margin: '1em',
-                borderRadius: '0.4em',
+                margin: '16px 8px',
+                // borderRadius: '0.4em',
                 textDecoration: 'none',
                 color: '#000000',
-                width: '360px',
-                height: '640px',
+                width: '336px',
+                height: '383px',
                 display: 'flex',
                 flexDirection: 'column',
-                boxShadow: '0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)'
+                borderStyle: 'none'
+                // boxShadow: '0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)'
             }
         }
         return (
@@ -44,7 +47,7 @@ class ItemList extends React.Component {
                     <img
                         src={this.props.front}
                         className="objectImage"
-                        style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.4)' }} />
+                        style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
                 <div style={styles.div}>
                     <h3 style={styles.h3}>{this.props.children}</h3>
