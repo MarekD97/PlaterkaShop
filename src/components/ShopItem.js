@@ -23,22 +23,12 @@ class ShopItem extends React.Component {
                 margin: 0,
                 overflow: 'hidden',
                 backgroundColor: '#F4F4F4'
-            },
-            item: {
-                margin: '16px 8px',
-                textDecoration: 'none',
-                color: '#000000',
-                width: '336px',
-                height: '383px',
-                display: 'flex',
-                flexDirection: 'column',
-                transition: 'transform 0.3s ease-in-out'
             }
         }
         return (
             <Link
                 to={`/id:${this.props.id}`}
-                style={styles.item}>
+                className="shop-item">
                 <div style={styles.imgContainer}>
                     <img
                         src={this.props.source}

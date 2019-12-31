@@ -197,3 +197,18 @@ body {
     flex-direction: row;
   }
 }
+
+.shop-item {
+  margin: 16px 8px;
+  text-decoration: none;
+  color: #000000;
+  width: 336px;
+  height: 383px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+}
+
+.shop-item:hover {
+  transform: scale(1.08);
+}
