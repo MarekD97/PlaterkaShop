@@ -151,19 +151,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .header {
-    margin-top: 4em;
-    font-size: 1em;
-  }
-  .menu-bar {
-    position: fixed;
-  }
-  .menu-link {
-    margin: 1.4em 0;
-  }
-}
-
 .menu-link {
   margin: 0 1.5em;
   transition: text-shadow 0.3s ease-in-out;
@@ -181,6 +168,19 @@ body {
   text-shadow: 1px 1px 24px #080808;
   cursor: pointer;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    margin-top: 4em;
+    font-size: 1em;
+  }
+  .menu-bar {
+    position: fixed;
+  }
+  .menu-link {
+    margin: 1.4em 0;
+  }
 }
 
 .item-container {
