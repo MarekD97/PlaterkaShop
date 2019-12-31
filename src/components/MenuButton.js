@@ -1,5 +1,4 @@
 import React from 'react';
-import './MenuButton.min.css';
 
 class MenuButton extends React.Component {
     render() {

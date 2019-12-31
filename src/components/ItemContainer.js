@@ -1,12 +1,10 @@
 import React from 'react';
-import data from '../templateData.json';
 
-class List extends React.Component {
+class ItemContainer extends React.Component {
     render() {
-        JSON.parse(JSON.stringify(data));
-        const id = this.props.location.pathname.substring(4, this.props.location.pathname.length);
-        console.log(data[0].description);
-        if (data[id] == undefined) {
+        const id = this.props.match.params.id.substring(1);
+        const product = this.props.data[id];
+        if (product === undefined) {
             return (
                 <div className="content">
                     <div className="header">
@@ -20,19 +18,13 @@ class List extends React.Component {
                     height: '436px',
                     objectFit: 'contain',
                     margin: 0,
-                    backgroundColor: '#F4F4F4'
+                    backgroundColor: '#F4F4F4',
+                    transition: 'transform 0.6s ease-in-out'
                 },
                 title: {
                     textAlign: 'left',
                     margin: 0,
                     fontSize: '1.4em'
-                },
-                div: {
-                    width: '100%',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    overflow: 'hidden'
                 },
                 header: {
                     padding: '0 1em',
@@ -46,29 +38,35 @@ class List extends React.Component {
                 }
             }
             return (
-                <div className="content">
-                    <div style={styles.div} className="divider">
+                <div className="item-container">
+                    {product.images.map(item =>
                         <img
-                            src={window.location.origin + data[id].images[0]}
-                            className="objectImage"
+                            key={item.key}
+                            src={window.location.origin + item}
+                            alt="Zdjęcie produktu"
                             style={styles.image} />
-                        <div style={{ padding: '0 1em' }}>
-                            <h3 style={styles.title}>{data[id].title}</h3>
-                            <p style={styles.p}>{data[id].price}</p><br />
-                            <h3 style={styles.h3}>Materiał</h3>
-                            <p style={styles.p}>{data[id].material}</p><br />
-                            <h3 style={styles.h3}>Gramatura</h3>
-                            <p style={styles.p}>{data[id].weight}</p><br />
-                            <h3 style={styles.h3}>Opis</h3>
-                            {data[id].description.map(item => <p style={styles.p}>{item}</p>)}<br />
-                            <h3 style={styles.h3}>Rozmiary</h3>
-                            <p style={styles.p}>{data[id].measurements}</p>
-                        </div>
+                    )}
+                    <div style={{ padding: '0 1em' }}>
+                        <h3 style={styles.title}>{product.title}</h3>
+                        <p style={styles.p}>{product.price}</p><br />
+                        <h3 style={styles.h3}>Materiał</h3>
+                        <p style={styles.p}>{product.material}</p><br />
+                        <h3 style={styles.h3}>Gramatura</h3>
+                        <p style={styles.p}>{product.weight}</p><br />
+                        <h3 style={styles.h3}>Opis</h3>
+                        {product.description.map(item => <p key={item.key} style={styles.p}>{item}</p>)}<br />
+                        <h3 style={styles.h3}>Rozmiary</h3>
+                        {product.category !== 'others' ?
+                            <a href={product.measurements}>
+                                LINK
+                            </a>
+
+                            : <p style={styles.p}>{product.measurements}</p>}
                     </div>
-                </div >
+                </div>
             );
         }
     }
 };
 
-export default List;
+export default ItemContainer;

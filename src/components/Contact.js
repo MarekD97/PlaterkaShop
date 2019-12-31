@@ -4,9 +4,6 @@ class Contact extends React.Component {
     render() {
         const contactStyle = {
             width: '100%',
-            display: '-webkit-box',
-            display: '-moz-box',
-            display: '-ms-flexbox',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -22,6 +19,7 @@ class Contact extends React.Component {
                         src="https://image.flaticon.com/icons/svg/124/124010.svg"
                         width="48"
                         height="48"
+                        alt="logo Facebook"
                         style={{ backgroundColor: '#ffffff' }} />
                 </a>
                 <p>Zuzia Pawłowska</p>
@@ -30,6 +28,7 @@ class Contact extends React.Component {
                         src="https://image.flaticon.com/icons/svg/124/124010.svg"
                         width="48"
                         height="48"
+                        alt="logo Facebook"
                         style={{ backgroundColor: '#ffffff' }} />
                 </a>
                 <h3>Autor strony:</h3>

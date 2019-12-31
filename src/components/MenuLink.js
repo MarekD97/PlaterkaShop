@@ -1,11 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import './MenuLink.min.css';
+import { Link } from 'react-router-dom';
 
 class MenuLink extends React.Component {
     render() {
-        let isMobile = window.innerWidth;
-        console.log(isMobile);
         const styles = {
             linkItem: 'menu-link__item',
             link: 'menu-link'

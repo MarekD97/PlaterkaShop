@@ -1,8 +1,7 @@
 import React from 'react';
-import ItemList from './ItemList.js';
-import data from '../templateData.json';
+import ShopItem from './ShopItem.js';
 
-class List extends React.Component {
+class ShopItemsContainer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -14,47 +13,41 @@ class List extends React.Component {
         console.log(this.state.search);
     }
     render() {
-        JSON.parse(JSON.stringify(data));
-        console.log(data);
-        var path = this.props.location.pathname.substring(1, this.props.location.pathname.length);
-        console.log(path);
-        var itemFilter = data.filter((item, index) => {
-            if (this.state.search != '')
+        var itemFilter = this.props.data.filter(item => {
+            if (this.state.search !== '')
                 return item.title.toLowerCase().search(this.state.search) !== -1;
-            else {
-                if (path == "meska")
-                    return item.gender == "m";
-                else if (path == "damska")
-                    return item.gender == "k";
-                else if (path == "akcesoria")
-                    return item.gender == "u";
-                else
-                    return item;
-            }
+            else
+                return this.props.category === '' ? item.category : item.category === this.props.category;
         });
         const styles = {
             header: {
                 textAlign: 'left',
                 padding: window.innerWidth < 576 ? '1em 1em 0 1em' : '0 6em',
                 width: '100%'
+            },
+            container: {
+                display: 'flex',
+                alignItems: 'center',
+                flexFlow: 'row wrap',
+                justifyContent: 'center'
             }
         }
         return (
-            <div className="content">
+            <div style={styles.container} >
                 <h1 style={styles.header}>Odzież i akcesoria z Twojej szkoły</h1>
                 {itemFilter.map((item, index) =>
-                    <ItemList
+                    <ShopItem
                         key={index}
                         id={item.id}
-                        front={window.location.origin + item.images[0]}
+                        source={window.location.origin + item.images[0]}
                         price={item.price}
                         description={item.description}>
                         {item.title}
-                    </ItemList>
+                    </ShopItem>
                 )}
-            </div>
+            </div >
         )
     }
 };
 
-export default List;
+export default ShopItemsContainer;

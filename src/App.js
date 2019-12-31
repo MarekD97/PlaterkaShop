@@ -7,18 +7,21 @@ import ItemContainer from './components/ItemContainer.js';
 import Contact from './components/Contact.js';
 import NoMatch from './components/NoMatch.js';
 
+import data from './data.json';
+
 class App extends React.Component {
     render() {
+        JSON.parse(JSON.stringify(data));
         return (
             <Router>
                 <MainPage>
                     <Switch>
-                        <Route exact path="/" component={ShopItemsContainer} />
-                        <Route path="/meska" component={ShopItemsContainer} />
-                        <Route path="/damska" component={ShopItemsContainer} />
-                        <Route path="/akcesoria" component={ShopItemsContainer} />
+                        <Route exact path="/" render={() => <ShopItemsContainer category='' data={data} />} />
+                        <Route path="/meska" render={() => <ShopItemsContainer category='male' data={data} />} />
+                        <Route path="/damska" render={() => <ShopItemsContainer category='female' data={data} />} />
+                        <Route path="/akcesoria" render={() => <ShopItemsContainer category='others' data={data} />} />
                         <Route path="/kontakt" component={Contact} />
-                        <Route path="/id:id" component={ItemContainer} />
+                        <Route path="/id:id" render={(routeProps) => <ItemContainer {...routeProps} data={data} />} />
                         <Route exact path='*' component={NoMatch} />
                     </Switch>
                 </MainPage>

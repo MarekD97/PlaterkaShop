@@ -1,7 +1,6 @@
 import React from 'react';
 import HeaderContainer from './HeaderContainer.js';
 import Footer from './Footer.js';
-import './MenuBar.css';
 
 class MainPage extends React.Component {
     render() {
