@@ -9,6 +9,7 @@ class Header extends React.Component {
             logo: {
                 width: "64px",
                 height: "64px",
+                objectFit: 'contain'
             }
         };
         return (

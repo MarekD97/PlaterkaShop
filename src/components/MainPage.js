@@ -10,6 +10,7 @@ class MainPage extends React.Component {
                 minHeight: '100vh'
             },
             content: {
+                paddingTop: '6rem',
                 paddingBottom: '3rem'
             }
 

@@ -49,19 +49,22 @@ class ItemContainer extends React.Component {
                     <div style={{ padding: '0 1em' }}>
                         <h3 style={styles.title}>{product.title}</h3>
                         <p style={styles.p}>{product.price}</p><br />
-                        <h3 style={styles.h3}>Materiał</h3>
-                        <p style={styles.p}>{product.material}</p><br />
-                        <h3 style={styles.h3}>Gramatura</h3>
-                        <p style={styles.p}>{product.weight}</p><br />
-                        <h3 style={styles.h3}>Opis</h3>
-                        {product.description.map(item => <p key={item.key} style={styles.p}>{item}</p>)}<br />
-                        <h3 style={styles.h3}>Rozmiary</h3>
+                        {product.material !== undefined ? <h3 style={styles.h3}>Materiał</h3> : null}
+                        {product.material !== undefined ? <p style={styles.p}>{product.material}</p> : null}
+                        <br />
+                        {product.weight !== undefined ? <h3 style={styles.h3}>Gramatura</h3> : null}
+                        {product.weight !== undefined ? <p style={styles.p}>{product.weight}</p> : null}
+                        <br />
+                        {product.description.length > 0 ? <h3 style={styles.h3}>Opis</h3> : null}
+                        {product.description.length > 0 ? product.description.map(item => <p key={item.key} style={styles.p}>{item}</p>) : null}
+                        <br />
+                        {product.measurements !== undefined ? <h3 style={styles.h3}>Rozmiary</h3> : null}
                         {product.category !== 'others' ?
                             <a href={product.measurements}>
                                 LINK
                             </a>
 
-                            : <p style={styles.p}>{product.measurements}</p>}
+                            : product.measurements !== undefined ? <p style={styles.p}>{product.measurements}</p> : null}
                     </div>
                 </div>
             );

@@ -6,6 +6,7 @@ import ShopItemsContainer from './components/ShopItemsContainer.js';
 import ItemContainer from './components/ItemContainer.js';
 import Contact from './components/Contact.js';
 import NoMatch from './components/NoMatch.js';
+import StartPage from './components/StartPage.js';
 
 import data from './data.json';
 
@@ -16,9 +17,9 @@ class App extends React.Component {
             <Router>
                 <MainPage>
                     <Switch>
-                        <Route exact path="/" render={() => <ShopItemsContainer category='' data={data} />} />
-                        <Route path="/meska" render={() => <ShopItemsContainer category='male' data={data} />} />
-                        <Route path="/damska" render={() => <ShopItemsContainer category='female' data={data} />} />
+                        <Route exact path="/" render={StartPage} />
+                        <Route path="/bluzy" render={() => <ShopItemsContainer category='sweatshirt' data={data} />} />
+                        <Route path="/koszulki" render={() => <ShopItemsContainer category='t-shirt' data={data} />} />
                         <Route path="/akcesoria" render={() => <ShopItemsContainer category='others' data={data} />} />
                         <Route path="/kontakt" component={Contact} />
                         <Route path="/id:id" render={(routeProps) => <ItemContainer {...routeProps} data={data} />} />

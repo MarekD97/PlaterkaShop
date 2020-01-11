@@ -15,7 +15,7 @@ class Footer extends React.Component {
         }
         return (
             <div style={styles.footer}>
-                <p>© 2019 Created by Marek Dorosz</p>
+                <p>© 2020 Created by Marek Dorosz</p>
             </div>
         );
     }

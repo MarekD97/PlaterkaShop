@@ -14,7 +14,8 @@
             "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
             "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej"
         ],
-        "category": "female",
+        "category": "sweatshirt",
+        "gender": "female",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
@@ -34,7 +35,8 @@
             "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
             "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej"
         ],
-        "category": "female",
+        "category": "sweatshirt",
+        "gender": "female",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
@@ -54,7 +56,8 @@
             "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
             "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej"
         ],
-        "category": "female",
+        "category": "sweatshirt",
+        "gender": "female",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
@@ -74,7 +77,8 @@
             "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
             "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej"
         ],
-        "category": "female",
+        "category": "sweatshirt",
+        "gender": "female",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
@@ -94,7 +98,8 @@
             "Kieszeń kangurka z małym ukrytym otworem na kabel od słuchawek",
             "Ściągacze przy mankietach i u dołu bluzy z dzaininy prążkowanej"
         ],
-        "category": "female",
+        "category": "sweatshirt",
+        "gender": "female",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-damska-college-hoodie-just-hoods-jh001f.pdf"
@@ -114,7 +119,8 @@
             "Ukryte pętelki na słuchawki",
             "Prążkowane ściągacze i obszycie"
         ],
-        "category": "male",
+        "category": "sweatshirt",
+        "gender": "male",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
@@ -134,7 +140,8 @@
             "Ukryte pętelki na słuchawki",
             "Prążkowane ściągacze i obszycie"
         ],
-        "category": "male",
+        "category": "sweatshirt",
+        "gender": "male",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
@@ -154,7 +161,8 @@
             "Ukryte pętelki na słuchawki",
             "Prążkowane ściągacze i obszycie"
         ],
-        "category": "male",
+        "category": "sweatshirt",
+        "gender": "male",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
@@ -174,7 +182,8 @@
             "Ukryte pętelki na słuchawki",
             "Prążkowane ściągacze i obszycie"
         ],
-        "category": "male",
+        "category": "sweatshirt",
+        "gender": "male",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
@@ -194,7 +203,8 @@
             "Ukryte pętelki na słuchawki",
             "Prążkowane ściągacze i obszycie"
         ],
-        "category": "male",
+        "category": "sweatshirt",
+        "gender": "male",
         "material": "80% bawełna / 20% poliester",
         "weight": "280 g/m2",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-bluza-meska-college-hoodie-just-hoods-jh001.pdf"
@@ -205,13 +215,14 @@
         "images": [
             "/images/KoszulkiDamskie/BiałeDamskie.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "female",
+        "category": "t-shirt",
+        "gender": "female",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-ladies-fitted-t-shirt-neutral-o81001.pdf"
@@ -222,13 +233,14 @@
         "images": [
             "/images/KoszulkiDamskie/BordowaDamska.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "female",
+        "category": "t-shirt",
+        "gender": "female",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-ladies-fitted-t-shirt-neutral-o81001.pdf"
@@ -239,13 +251,14 @@
         "images": [
             "/images/KoszulkiDamskie/CzarnaDamska.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "female",
+        "category": "t-shirt",
+        "gender": "female",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-ladies-fitted-t-shirt-neutral-o81001.pdf"
@@ -256,13 +269,14 @@
         "images": [
             "/images/KoszulkiDamskie/ZielonaDamska.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "female",
+        "category": "t-shirt",
+        "gender": "female",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-ladies-fitted-t-shirt-neutral-o81001.pdf"
@@ -273,13 +287,14 @@
         "images": [
             "/images/KoszulkiMęskie/BiałaMęska.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "male",
+        "category": "t-shirt",
+        "gender": "male",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-mens-fitted-t-shirt-neutral-o61001.pdf"
@@ -290,13 +305,14 @@
         "images": [
             "/images/KoszulkiMęskie/BordowaMęska.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "male",
+        "category": "t-shirt",
+        "gender": "male",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-mens-fitted-t-shirt-neutral-o61001.pdf"
@@ -307,13 +323,14 @@
         "images": [
             "/images/KoszulkiMęskie/CzarnaMęska.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "male",
+        "category": "t-shirt",
+        "gender": "male",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-mens-fitted-t-shirt-neutral-o61001.pdf"
@@ -324,13 +341,14 @@
         "images": [
             "/images/KoszulkiMęskie/ZielonaMęska.png"
         ],
-        "price": "45 zł",
+        "price": "35 zł",
         "description": [
             "Czesana bawełna organiczna",
             "Taśma wzmacniająca na karku",
             "Okrągły dekolt wykończony dzianina prążkowaną z domieszką elastanu"
         ],
-        "category": "male",
+        "category": "t-shirt",
+        "gender": "male",
         "material": "100% bawełna",
         "weight": "155 g/m²",
         "measurements": "https://www.openwear.pl/tabela-rozmiarow-mens-fitted-t-shirt-neutral-o61001.pdf"
@@ -348,6 +366,7 @@
             "Pojemność ok.10 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "38 x 42 cm"
@@ -365,6 +384,7 @@
             "Pojemność ok.10 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "38 x 42 cm"
@@ -382,6 +402,7 @@
             "Pojemność ok.10 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "38 x 42 cm"
@@ -399,6 +420,7 @@
             "Pojemność ok.10 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "38 x 42 cm"
@@ -416,6 +438,7 @@
             "Pojemność ok.10 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "38 x 42 cm"
@@ -426,13 +449,14 @@
         "images": [
             "/images/Worek (plecak)/PlecakBiały.png"
         ],
-        "price": "25 zł",
+        "price": "30 zł",
         "description": [
             "Naturalna alternatywa dla poliesterowych worków na siłownię",
             "Wiązany na sznurek",
             "Pojemność ok. 12 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "37 x 46 cm"
@@ -443,13 +467,14 @@
         "images": [
             "/images/Worek (plecak)/PlecakBordowy.png"
         ],
-        "price": "25 zł",
+        "price": "30 zł",
         "description": [
             "Naturalna alternatywa dla poliesterowych worków na siłownię",
             "Wiązany na sznurek",
             "Pojemność ok. 12 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "37 x 46 cm"
@@ -460,13 +485,14 @@
         "images": [
             "/images/Worek (plecak)/PlecakCzarny.png"
         ],
-        "price": "25 zł",
+        "price": "30 zł",
         "description": [
             "Naturalna alternatywa dla poliesterowych worków na siłownię",
             "Wiązany na sznurek",
             "Pojemność ok. 12 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "37 x 46 cm"
@@ -477,13 +503,14 @@
         "images": [
             "/images/Worek (plecak)/PlecakRózowy.png"
         ],
-        "price": "25 zł",
+        "price": "30 zł",
         "description": [
             "Naturalna alternatywa dla poliesterowych worków na siłownię",
             "Wiązany na sznurek",
             "Pojemność ok. 12 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "37 x 46 cm"
@@ -494,15 +521,66 @@
         "images": [
             "/images/Worek (plecak)/PlecakZielony.png"
         ],
-        "price": "25 zł",
+        "price": "30 zł",
         "description": [
             "Naturalna alternatywa dla poliesterowych worków na siłownię",
             "Wiązany na sznurek",
             "Pojemność ok. 12 litrów"
         ],
         "category": "others",
+        "gender": "unisex",
         "material": "100% bawełna",
         "weight": "140 g/m2",
         "measurements": "37 x 46 cm"
+    },
+    {
+        "id": "28",
+        "title": "Długopis biały",
+        "images": [
+            "/images/Gadzety/DługopisBiały.png"
+        ],
+        "price": "10 zł",
+        "description": [],
+        "category": "others"
+    },
+    {
+        "id": "29",
+        "title": "Długopis czarny",
+        "images": [
+            "/images/Gadzety/Długopisczarny.png"
+        ],
+        "price": "10 zł",
+        "description": [],
+        "category": "others"
+    },
+    {
+        "id": "30",
+        "title": "Kubek",
+        "images": [
+            "/images/Gadzety/Kubek.png"
+        ],
+        "price": "18 zł",
+        "description": [],
+        "category": "others"
+    },
+    {
+        "id": "31",
+        "title": "Opaska biała",
+        "images": [
+            "/images/Gadzety/OpaskaBiała.png"
+        ],
+        "price": "10 zł",
+        "description": [],
+        "category": "others"
+    },
+    {
+        "id": "32",
+        "title": "Opaska czarna",
+        "images": [
+            "/images/Gadzety/OpaskaCzarna.png"
+        ],
+        "price": "10 zł",
+        "description": [],
+        "category": "others"
     }
 ]

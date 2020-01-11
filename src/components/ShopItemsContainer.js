@@ -21,8 +21,7 @@ class ShopItemsContainer extends React.Component {
         });
         const styles = {
             header: {
-                textAlign: 'left',
-                padding: window.innerWidth < 576 ? '1em 1em 0 1em' : '0 6em',
+                textAlign: 'center',
                 width: '100%'
             },
             container: {
@@ -32,21 +31,55 @@ class ShopItemsContainer extends React.Component {
                 justifyContent: 'center'
             }
         }
-        return (
-            <div style={styles.container} >
-                <h1 style={styles.header}>Odzież i akcesoria z Twojej szkoły</h1>
-                {itemFilter.map((item, index) =>
-                    <ShopItem
-                        key={index}
-                        id={item.id}
-                        source={window.location.origin + item.images[0]}
-                        price={item.price}
-                        description={item.description}>
-                        {item.title}
-                    </ShopItem>
-                )}
-            </div >
-        )
+        if (this.props.category !== 'others') {
+            var itemMale = itemFilter.filter(item => {
+                return item.gender === 'male';
+            });
+            var itemFemale = itemFilter.filter(item => {
+                return item.gender === 'female';
+            });
+            return (
+                <div style={styles.container} >
+                    <h1 style={styles.header}>Męskie</h1>
+                    {itemMale.map((item, index) =>
+                        <ShopItem
+                            key={index}
+                            id={item.id}
+                            source={window.location.origin + item.images[0]}
+                            price={item.price}
+                            description={item.description}>
+                            {item.title}
+                        </ShopItem>
+                    )}
+                    <h1 style={styles.header}>Damskie</h1>
+                    {itemFemale.map((item, index) =>
+                        <ShopItem
+                            key={index}
+                            id={item.id}
+                            source={window.location.origin + item.images[0]}
+                            price={item.price}
+                            description={item.description}>
+                            {item.title}
+                        </ShopItem>
+                    )}
+                </div >
+            )
+        } else {
+            return (
+                <div style={styles.container} >
+                    {itemFilter.map((item, index) =>
+                        <ShopItem
+                            key={index}
+                            id={item.id}
+                            source={window.location.origin + item.images[0]}
+                            price={item.price}
+                            description={item.description}>
+                            {item.title}
+                        </ShopItem>
+                    )}
+                </div >
+            )
+        }
     }
 };
 
