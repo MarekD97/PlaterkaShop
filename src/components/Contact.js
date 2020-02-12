@@ -12,7 +12,8 @@ class Contact extends React.Component {
         }
         return (
             <div style={contactStyle}>
-                <h3>Sklep z bluzami i koszulkami Platerki:</h3>
+                <h3>Sklep z bluzami i koszulkami Platerki</h3>
+                <p>Zapisy na bluzy prowadzone są w klasach lub u osób:</p>
                 <p>Marcin Gordziejewski</p>
                 <a href="https://www.facebook.com/marcin.gordziejewski.9">
                     <img
@@ -31,6 +32,7 @@ class Contact extends React.Component {
                         alt="logo Facebook"
                         style={{ backgroundColor: '#ffffff' }} />
                 </a>
+                <br />
                 <h3>Autor strony:</h3>
                 <p>Marek Dorosz</p>
                 <a href="mailto:mdorosz2@wp.pl"><u>mdorosz2@wp.pl</u></a>
