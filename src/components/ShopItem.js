@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 class ShopItem extends React.Component {
     render() {
@@ -25,6 +26,20 @@ class ShopItem extends React.Component {
                 backgroundColor: '#F4F4F4'
             }
         }
+        const Link = styled(NavLink)`
+            margin: 16px 8px;
+            text-decoration: none;
+            color: #000000;
+            width: 336px;
+            height: 383px;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease-in-out;
+        
+            &:hover {
+                transform: scale(1.08);
+            }
+        `;
         return (
             <Link
                 to={`/id:${this.props.id}`}

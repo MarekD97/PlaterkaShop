@@ -8,6 +8,9 @@ class ShopItemsContainer extends React.Component {
             search: ''
         };
     }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     search(e) {
         this.setState({ search: e.target.value.toLowerCase() });
         console.log(this.state.search);

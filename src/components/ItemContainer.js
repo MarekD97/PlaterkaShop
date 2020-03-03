@@ -1,16 +1,31 @@
 import React from 'react';
+import styled from 'styled-components';
 
 class ItemContainer extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render() {
         const id = this.props.match.params.id.substring(1);
         const product = this.props.data[id];
+        const Container = styled.div`
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                @media only screen and (min-width: 576px) {
+                    flex-direction: row;
+                }
+            `;
         if (product === undefined) {
             return (
-                <div className="content">
+                <Container>
                     <div className="header">
                         <h1>Taki produkt nie istnieje</h1>
                     </div>
-                </div>)
+                </Container>)
         } else {
             const styles = {
                 image: {
@@ -38,7 +53,7 @@ class ItemContainer extends React.Component {
                 }
             }
             return (
-                <div className="item-container">
+                <Container>
                     {product.images.map(item =>
                         <img
                             key={item.key}
@@ -66,7 +81,7 @@ class ItemContainer extends React.Component {
 
                             : product.measurements !== undefined ? <p style={styles.p}>{product.measurements}</p> : null}
                     </div>
-                </div>
+                </Container>
             );
         }
     }
