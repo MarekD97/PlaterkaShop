@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 class ContactForm extends React.Component {
     constructor(props) {
@@ -36,18 +37,24 @@ class ContactForm extends React.Component {
                 borderRadius: '2px',
                 resize: 'vertical',
                 marginBottom: '1em',
-                borderColor: '#0f0f0f'
-            },
-            button: {
-                width: '50%',
-                marginLeft: 'auto',
-                padding: '0.5em',
-                borderRadius: '2px',
-                borderStyle: 'solid',
-                borderWidth: '1px',
-                fontSize: '1em'
+                borderColor: '#0f0f0f',
+                minHeight: '60px'
             }
         }
+        const Button = styled.button`
+            width: 50%;
+            margin-left: auto;
+            padding: 0.5em;
+            border-radius: 2px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #0f0f0f;
+            font-size: 1em;
+            &:hover {
+                cursor: pointer;
+                background: #d0d0d0;
+            }
+        `;
         return (
             <div style={styles.container}>
                 <h3>Formularz zgłoszeniowy</h3>
@@ -68,7 +75,7 @@ class ContactForm extends React.Component {
                     <input type="email" name="email" style={styles.input} />
                     <label>Wiadomość:</label>
                     <textarea type="text" name="message" rows="3" style={styles.textarea} />
-                    {status === "SUCCESS" ? <p>Wiadomość została wysłana</p> : <button style={styles.button}>Wyślij</button>}
+                    {status === "SUCCESS" ? <p>Wiadomość została wysłana</p> : <Button>Wyślij</Button>}
                     {status === "ERROR" && <p>Ups! Wystąpił błąd</p>}
                 </form>
             </div>
