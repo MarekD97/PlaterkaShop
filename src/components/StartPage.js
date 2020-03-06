@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const styles = {
-    header: {
-        textAlign: 'center',
-        width: '100%'
-    }
-}
-
 const Container = styled.div`
     display: flex;
     align-items: center;
@@ -25,16 +18,48 @@ const Image = styled.img`
     width: auto;
     height: 40%;
     object-fit: contain;
+    opacity: 0;
     @media only screen and (min-width: 576px) {
         height: 60%;
     }
+    @keyframes slideInFromLeft {
+        0% {
+          transform: translateX(-40%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+    }
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation-fill-mode: forwards;
 `;
 
-const StartPage = () => {
+const H1 = styled.h1`
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    @keyframes slideInFromBottom {
+        0% {
+          opacity: 0;
+          transform: translateY(60%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+    }
+    animation: 1s ease-out .3s 1 slideInFromBottom;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+`;
+
+function StartPage() {
     return (
         <Container>
-            <Image src={'./images/platerkapodstawa2 (2).png'} alt='logo Platerki' />
-            <h1 style={styles.header}>Witamy na oficjalnej stronie sklepu II LO im. Emilii Plater w Białej Podlaskiej. Zapraszamy do zapoznania się z naszą aktualną ofertą</h1>
+            <Image id="mainLogo" src={'./images/platerkapodstawa2 (2).png'} alt='logo Platerki' />
+            <H1>Witamy na oficjalnej stronie sklepu II LO im. Emilii Plater w Białej Podlaskiej. Zapraszamy do zapoznania się z naszą aktualną ofertą</H1>
         </Container>
     );
 };

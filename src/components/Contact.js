@@ -2,6 +2,36 @@ import React from 'react';
 import ContactForm from './ContactForm.js';
 import styled from 'styled-components';
 
+const Container = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    @media only screen and (min-width: 576px) {
+        flex-direction: row;
+    }
+    @keyframes slideInFromBottom {
+        0% {
+          opacity: 0;
+          transform: translateY(10%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+    }
+    animation: .6s ease-out .3s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+`;
+const Content = styled.div`
+    padding: 0.7em;
+    @media only screen and (min-width: 576px) {
+        margin-left: 3em;
+    }
+`;
+
 class Contact extends React.Component {
     render() {
         const styles = {
@@ -16,23 +46,6 @@ class Contact extends React.Component {
                 marginLeft: '1em'
             }
         }
-        const Container = styled.div`
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            @media only screen and (min-width: 576px) {
-                flex-direction: row;
-            }
-        `;
-        const Content = styled.div`
-            padding: 0.7em;
-            @media only screen and (min-width: 576px) {
-                margin-left: 3em;
-            }
-        `;
         return (
             <Container>
                 <ContactForm />

@@ -35,10 +35,23 @@ class ShopItem extends React.Component {
             display: flex;
             flex-direction: column;
             transition: transform 0.3s ease-in-out;
-        
+            opacity: 0;
             &:hover {
                 transform: scale(1.08);
             }
+            @keyframes slideInFromBottom {
+                0% {
+                opacity: 0;
+                transform: translateY(20%);
+                }
+                100% {
+                opacity: 1;
+                transform: translateY(0);
+                }
+            }
+            animation: .6s ease-out .3s 1 slideInFromBottom;
+            animation-delay: ${this._reactInternalFiber.key * 0.1}s;
+            animation-fill-mode: forwards;
         `;
         return (
             <Link

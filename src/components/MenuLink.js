@@ -5,11 +5,10 @@ import styled from 'styled-components';
 class MenuLink extends React.Component {
     render() {
         const styles = {
-            linkItem: {
+            link: {
                 textDecoration: 'none',
                 color: '#000000'
-            },
-            link: 'menu-link'
+            }
         }
         const LinkContainer = styled.li`
             margin: 1.4em 0;
@@ -31,7 +30,7 @@ class MenuLink extends React.Component {
                 <Link
                     to={this.props.linkTo}
                     onClick={this.props.handleClick}
-                    style={styles.linkItem}>
+                    style={styles.link}>
                     {this.props.children}
                 </Link>
             </LinkContainer>
