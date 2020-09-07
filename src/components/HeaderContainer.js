@@ -18,9 +18,9 @@ class HeaderContainer extends React.Component {
             <Header isOpen={this.state.isOpen} handleClick={this.handleClick}>
                 <MenuLink linkTo="/" handleClick={this.handleClick}>Start</MenuLink>
                 <MenuLink linkTo="/bluzy" handleClick={this.handleClick}>Bluzy</MenuLink>
-                <MenuLink linkTo="/koszulki" handleClick={this.handleClick}>Koszulki</MenuLink>
+                {/* <MenuLink linkTo="/koszulki" handleClick={this.handleClick}>Koszulki</MenuLink>
                 <MenuLink linkTo="/akcesoria" handleClick={this.handleClick}>Akcesoria</MenuLink>
-                <MenuLink linkTo="/kontakt" handleClick={this.handleClick}>Kontakt</MenuLink>
+                <MenuLink linkTo="/kontakt" handleClick={this.handleClick}>Kontakt</MenuLink> */}
             </Header>
         );
     }

@@ -54,7 +54,7 @@ class ShopItemsContainer extends React.Component {
                             {item.title}
                         </ShopItem>
                     )}
-                    <h1 style={styles.header}>Damskie</h1>
+                    {/* <h1 style={styles.header}>Damskie</h1>
                     {itemFemale.map((item, index) =>
                         <ShopItem
                             key={index}
@@ -64,7 +64,7 @@ class ShopItemsContainer extends React.Component {
                             description={item.description}>
                             {item.title}
                         </ShopItem>
-                    )}
+                    )} */}
                 </div >
             )
         } else {
